@@ -171,6 +171,7 @@ body{
 
 .notes{
     margin: 120px auto;
+    padding: 120px;
 }
 
 .card-description{
@@ -236,4 +237,142 @@ body{
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+}
+
+/* cards styles end here */
+
+/* Brain section styles start */
+
+.brain{
+    margin: 120px auto;
+}
+
+.brain-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 120px;
+}
+
+.brain-solution{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.brain-paragraph{
+    font-size: 16px;
+    font-weight: 600;
+    color: #30B868;
+    text-align: left;
+}
+
+.brain-heading{
+    font-size: 43px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.brain-para-2{
+    text-align: justify;
+    font-size: 13px;
+    font-weight: 400;
+    /* text-align: left; */
+    color: rgb(101, 111, 121);
+}
+
+.solution-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+}
+
+.solution-list li{
+    list-style: none;
+}
+
+/* Early access style */
+
+.early-action-part{
+    margin: 120px auto;
+    padding: 120px;
+}
+
+.early-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* margin: 120px auto; */
+    padding: 80px 40px;
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+}
+
+.early-action-heading{
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.early-action-paragraph1{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+}
+
+/* footer styles start */
+
+footer{
+    /* margin: 120px auto; */
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 30px;
+    background: var(--Style, rgba(0, 25, 49, 1));
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px;
+}
+
+.social-link{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.social-icon{
+    background-color: aliceblue;
+    border-radius: 100px;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    margin: 0px 5px;
+}
+
+hr{
+    border: 1px solid var(--DS New/Colors/Stroke/Gray-Light, rgba(229, 231, 235, 1));
+    opacity: 0.2;
+
+}
+
+
+.copyright{
+    color: rgba(250, 250, 250, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 25px;
 }
